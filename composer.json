@@ -1,0 +1,24 @@
+{
+    "name": "workbench/surfedge-firebase-mod-push",
+    "type": "flarum-extension",
+    "description": "Firebase Push For Moderators App.",
+    "keywords": ["header"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.7"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Firebase Push For Moderators App",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#ffffff",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        }
+    }
+}
